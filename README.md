@@ -59,7 +59,7 @@ We have a [dedicated repository](https://github.com/projectdiscovery/nuclei-temp
 Nuclei requires **go1.20** to install successfully. Run the following command to install the latest version -
 
 ```sh
-go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+go install -v github.com/2491zero/nuclei/v2/cmd/nuclei@latest
 ```
 
 <details>
@@ -74,12 +74,12 @@ go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
   <summary>Docker</summary>
   
   ```sh
-  docker pull projectdiscovery/nuclei:latest
+  docker pull 2491zero/nuclei:latest
   ```
   
 </details>
 
-**More installation [methods can be found here](https://nuclei.projectdiscovery.io/nuclei/get-started/).**
+
 
 <table>
 <tr>
@@ -87,7 +87,7 @@ go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
 ### Nuclei Templates
 
-Nuclei has built-in support for automatic template download/update as default since version [v2.5.2](https://github.com/projectdiscovery/nuclei/releases/tag/v2.5.2). [**Nuclei-Templates**](https://github.com/projectdiscovery/nuclei-templates) project provides a community-contributed list of ready-to-use templates that is constantly updated.
+Nuclei has built-in support for automatic template download/update as default since version [v2.5.2](https://github.com/2491zero/nuclei). [**Nuclei-Templates**](https://github.com/projectdiscovery/nuclei-templates) project provides a community-contributed list of ready-to-use templates that is constantly updated.
 
 You may still use the `update-templates` flag to update the nuclei templates at any time; You can write your own checks for your individual workflow and needs following Nuclei's [templating guide](https://nuclei.projectdiscovery.io/templating-guide/).
 
@@ -335,7 +335,7 @@ Nuclei allows you to customise your testing approach with your own suite of chec
 - Can process thousands of hosts in few minutes.
 - Easily automate your custom testing approach with our simple YAML DSL.
 
-Please check our other open-source projects that might fit into your bug bounty workflow: [github.com/projectdiscovery](http://github.com/projectdiscovery), we also host daily [refresh of DNS data at Chaos](http://chaos.projectdiscovery.io).
+Please check our other open-source projects that might fit into your bug bounty workflow: [(github.com/2491zero]((https://github.com/2491zero), we also host daily [refresh of DNS data at Chaos](http://chaos.projectdiscovery.io).
 
 </td>
 </tr>
